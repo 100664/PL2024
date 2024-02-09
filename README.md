@@ -1,1 +1,3 @@
-# PL2024
+# PROCESSAMENTO DE LINGUAGENS 2024
+
+# Martim José Amaro Redondo, A100664
