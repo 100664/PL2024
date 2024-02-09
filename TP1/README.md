@@ -6,4 +6,4 @@ Martim José Amaro Redondo, A100664
 
 ## Funcionalidades implementadas
 
-* (A ser feito)
+* (A ser feito).
