@@ -1,6 +1,6 @@
 # Receita de **Bolo de Chocolate**
 
-Este é um parágrafo sobre uma [receita deliciosa de bolo de chocolate](https://www.receitas.com/bolo-de-chocolate).
+Este é um parágrafo sobre uma [receita deliciosa de bolo de chocolate](https://receitas.globo.com/tipos-de-prato/bolos/bolo-de-chocolate-facil.ghtml).
 
 ## Ingredientes
 
@@ -27,6 +27,6 @@ Este é um parágrafo sobre uma [receita deliciosa de bolo de chocolate](https:/
 
 Veja como fica o bolo pronto:
 
-![Bolo de Chocolate](https://cdn.pixabay.com/photo/2016/03/27/20/07/birthday-cake-1284044_960_720.jpg)
+![Bolo de Chocolate](https://s2-receitas.glbimg.com/Ft3gxS3O0sJx_6H0EeAce208d6E=/0x0:1280x800/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/1/N/aQD0fhQs2qW7qlFw0bTA/bolo-de-chocolate-facil.jpg)
 
 Espero que aproveite esta receita deliciosa!
