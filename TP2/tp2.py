@@ -21,7 +21,6 @@ def convert_italics(markdown):
 def convert_numbered_list(markdown):
     html_output = []
     in_ordered_list = False
-    in_unordered_list = False
 
     for line in markdown.split('\n'):
         # Ordered List
@@ -33,24 +32,10 @@ def convert_numbered_list(markdown):
             html_output.append(f'<li>{ordered_list_match.group(2)}</li>')
             continue
 
-        # Unordered List
-        unordered_list_match = re.match(r'^([*+-]\s)(.*)', line)
-        if unordered_list_match:
-            if not in_unordered_list:
-                html_output.append('<ul>')
-                in_unordered_list = True
-            html_output.append(f'<li>{unordered_list_match.group(2)}</li>')
-            continue
-
         # Closing Ordered List
         if in_ordered_list and not ordered_list_match:
             html_output.append('</ol>')
             in_ordered_list = False
-
-        # Closing Unordered List
-        if in_unordered_list and not unordered_list_match:
-            html_output.append('</ul>')
-            in_unordered_list = False
 
         # Other Markdown to HTML conversions
         line = convert_images(line)
@@ -65,8 +50,6 @@ def convert_numbered_list(markdown):
     # Close any remaining lists
     if in_ordered_list:
         html_output.append('</ol>')
-    if in_unordered_list:
-        html_output.append('</ul>')
 
     return '\n'.join(html_output)
 
@@ -87,7 +70,5 @@ def convert_md_file_to_html(input_file, output_file):
         file.write(html_output)
 
 
-convert_md_file_to_html('exemplo.md', 'exemplo.html')
 convert_md_file_to_html('receita.md', 'receita.html')
-print(f'Arquivo HTML exemplo.html criado com sucesso!')
 print(f'Arquivo HTML receita.html criado com sucesso!')
