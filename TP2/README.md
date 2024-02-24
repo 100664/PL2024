@@ -6,7 +6,7 @@ Martim José Amaro Redondo, A100664
 
 ## Funcionalidades implementadas
 
-1. Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto" por "<h1>Exemplo</h1>", ou <h2>Exemplo</h2> ou <h3>Exemplo</h3>, respetivamente.
+1. Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto" por "<h1>Exemplo</h1>", ou "<h2>Exemplo</h2>" ou "<h3>Exemplo</h3>", respetivamente.
 
 2. Bold: pedaços de texto entre "**":
       - In: Este é um **exemplo** ...
