@@ -1,6 +1,10 @@
 # Somador on/off
 
-# Somador on/off: criar o programa em Python
+## Autor
+
+Martim José Amaro Redondo, A100664
+
+## Funcionalidades implementadas:
 
 1. Pretende-se um programa que some todas as sequências de dígitos que encontre num texto;
 2. Sempre que encontrar a string “Off” em qualquer combinação de maiúsculas e minúsculas, esse comportamento é desligado;
