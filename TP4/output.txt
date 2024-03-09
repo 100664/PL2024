@@ -1,0 +1,12 @@
+Select = SELECT
+id = VARIAVEL
+, = VIRGULA
+nome = VARIAVEL
+, = VIRGULA
+salario = VARIAVEL
+From = FROM
+empregados = VARIAVEL
+Where = WHERE
+salario = VARIAVEL
+>= = MAIOReIGUAL
+820 = NUMERO
