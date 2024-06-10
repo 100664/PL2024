@@ -3,19 +3,20 @@
 Martim Redondo, a100664
 
 ## TERMINAIS 
+```
 T = {'?','=', '!', '+', '-', '*', '/', '(', ')', id, num}
-
+```
 ## Não Terminais
-
+```
 N = {Z, Exps, Exp, Exp2, OP, OP1}
-
+```
 ## Símbolo Inicial
-
+```
 Z
-
+```
 ## Produções
 
-
+```
  S -> '?' id           
     | '!' Exps             
     | id '=' Exp         
@@ -30,11 +31,13 @@ Op1 -> &
 Exp2 -> '(' Exps ')'     
     | num                
     | id                
-
+```
 
 ## Exemplo
 
+```
 ?a 
 b=a*2/(27-3)
 !a+b
 c=a*b/(a/b)
+```
